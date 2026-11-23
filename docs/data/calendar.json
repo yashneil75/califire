@@ -13,7 +13,7 @@
  },
  "unit": "MODIS-Aqua-equivalent occupied 1 km² grid cells",
  "timezone": "UTC",
- "generated_utc": "2026-11-22T15:27:29+00:00",
+ "generated_utc": "2026-11-23T19:19:35+00:00",
  "model": {
   "name": "california-modis-aqua-poisson-glm",
   "target": "MODIS-Aqua occupied 1 km cells per co-detected overpass",
@@ -113,12 +113,12 @@
  },
  "warning": "Activity index in MODIS-Aqua-equivalent occupied cells; not burned area, not a fire count, and not a detection-precision estimate. Days without observations are absent, not zero.",
  "stats": {
-  "days_reported": 8615,
+  "days_reported": 8616,
   "total_activity": 135717.2,
   "peak_day": "2020-09-08",
   "peak_activity": 1920.527,
   "first_day": "2000-11-01",
-  "last_day": "2026-11-22"
+  "last_day": "2026-11-23"
  },
  "months": [
   {
@@ -2307,8 +2307,8 @@
   },
   {
    "month": "2026-11",
-   "activity": 122.228,
-   "days_reported": 22,
+   "activity": 122.249,
+   "days_reported": 23,
    "peak_day": "2026-11-12",
    "peak_activity": 34.166
   }
@@ -229655,6 +229655,32 @@
     "frp_mw": 14.2,
     "viirs_cells": 15,
     "viirs_detections": 16
+   },
+   "epochs": [
+    "2.0NRT"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "status": "nrt",
+   "sensor": "NOAA20",
+   "activity": 0.021,
+   "frp_mw": 12.8,
+   "viirs_cells": 11,
+   "viirs_detections": 13,
+   "day": {
+    "activity": 0,
+    "passes": 0,
+    "frp_mw": 0,
+    "viirs_cells": 0,
+    "viirs_detections": 0
+   },
+   "night": {
+    "activity": 0.021,
+    "passes": 1,
+    "frp_mw": 12.8,
+    "viirs_cells": 11,
+    "viirs_detections": 13
    },
    "epochs": [
     "2.0NRT"

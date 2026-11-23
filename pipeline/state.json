@@ -2,7 +2,7 @@
  "schema_version": 1,
  "region_id": "california-state",
  "model": "california-modis-aqua-poisson-glm",
- "updated_utc": "2026-11-22T15:27:28+00:00",
+ "updated_utc": "2026-11-23T19:19:34+00:00",
  "days": {
   "2000-11-01": {
    "date": "2000-11-01",
@@ -227345,6 +227345,32 @@
     "frp_mw": 14.2,
     "viirs_cells": 15,
     "viirs_detections": 16
+   },
+   "epochs": [
+    "2.0NRT"
+   ]
+  },
+  "2026-11-23": {
+   "date": "2026-11-23",
+   "status": "nrt",
+   "sensor": "NOAA20",
+   "activity": 0.021,
+   "frp_mw": 12.8,
+   "viirs_cells": 11,
+   "viirs_detections": 13,
+   "day": {
+    "activity": 0,
+    "passes": 0,
+    "frp_mw": 0,
+    "viirs_cells": 0,
+    "viirs_detections": 0
+   },
+   "night": {
+    "activity": 0.021,
+    "passes": 1,
+    "frp_mw": 12.8,
+    "viirs_cells": 11,
+    "viirs_detections": 13
    },
    "epochs": [
     "2.0NRT"
