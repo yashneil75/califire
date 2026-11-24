@@ -3,54 +3,54 @@
   "kind": "experimental_forecast",
   "model": "mistralai/Timestral-5M",
   "model_revision": "bdd20cfc15a3fea0e4cb5ccef37f8d3ca7aa335f",
-  "origin_utc_date": "2026-11-22",
-  "latest_reported_date": "2026-11-22",
-  "calendar_generated_utc": "2026-11-23T19:19:35+00:00",
-  "generated_utc": "2026-11-23T19:20:25+00:00",
+  "origin_utc_date": "2026-11-23",
+  "latest_reported_date": "2026-11-23",
+  "calendar_generated_utc": "2026-11-24T18:57:47+00:00",
+  "generated_utc": "2026-11-24T18:58:34+00:00",
   "unit": "MODIS-Aqua-equivalent occupied 1 km\u00b2 grid cells",
   "warning": "Experimental forecast of satellite-detected activity; not a fire-risk forecast or emergency guidance.",
   "predictions": [
     {
-      "date": "2026-11-24",
-      "median": 0.591,
-      "q10": 0.021,
-      "q90": 7.113
-    },
-    {
       "date": "2026-11-25",
-      "median": 0.644,
-      "q10": 0.022,
-      "q90": 8.321
+      "median": 0.682,
+      "q10": 0.038,
+      "q90": 6.878
     },
     {
       "date": "2026-11-26",
-      "median": 0.653,
-      "q10": 0.023,
-      "q90": 8.495
+      "median": 0.66,
+      "q10": 0.04,
+      "q90": 7.67
     },
     {
       "date": "2026-11-27",
-      "median": 0.608,
-      "q10": 0.025,
-      "q90": 8.328
+      "median": 0.573,
+      "q10": 0.039,
+      "q90": 7.158
     },
     {
       "date": "2026-11-28",
-      "median": 0.528,
-      "q10": 0.026,
-      "q90": 7.563
+      "median": 0.502,
+      "q10": 0.038,
+      "q90": 6.863
     },
     {
       "date": "2026-11-29",
-      "median": 0.505,
-      "q10": 0.023,
-      "q90": 7.483
+      "median": 0.513,
+      "q10": 0.04,
+      "q90": 7.145
     },
     {
       "date": "2026-11-30",
-      "median": 0.659,
-      "q10": 0.031,
-      "q90": 9.547
+      "median": 0.65,
+      "q10": 0.047,
+      "q90": 9.128
+    },
+    {
+      "date": "2026-12-01",
+      "median": 0.836,
+      "q10": 0.053,
+      "q90": 11.524
     }
   ],
   "validation": {
