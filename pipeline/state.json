@@ -2,7 +2,7 @@
  "schema_version": 1,
  "region_id": "california-state",
  "model": "california-modis-aqua-poisson-glm",
- "updated_utc": "2026-11-24T18:57:47+00:00",
+ "updated_utc": "2026-11-25T18:02:27+00:00",
  "days": {
   "2000-11-01": {
    "date": "2000-11-01",
@@ -227380,10 +227380,36 @@
    "date": "2026-11-24",
    "status": "nrt",
    "sensor": "NOAA20",
-   "activity": 0.006,
-   "frp_mw": 7.1,
-   "viirs_cells": 6,
-   "viirs_detections": 7,
+   "activity": 0.236,
+   "frp_mw": 98.3,
+   "viirs_cells": 14,
+   "viirs_detections": 19,
+   "day": {
+    "activity": 0.23,
+    "passes": 1,
+    "frp_mw": 91.2,
+    "viirs_cells": 8,
+    "viirs_detections": 12
+   },
+   "night": {
+    "activity": 0.006,
+    "passes": 2,
+    "frp_mw": 7.1,
+    "viirs_cells": 6,
+    "viirs_detections": 7
+   },
+   "epochs": [
+    "2.0NRT"
+   ]
+  },
+  "2026-11-25": {
+   "date": "2026-11-25",
+   "status": "nrt",
+   "sensor": "NOAA20",
+   "activity": 0.001,
+   "frp_mw": 2.0,
+   "viirs_cells": 2,
+   "viirs_detections": 3,
    "day": {
     "activity": 0,
     "passes": 0,
@@ -227392,11 +227418,11 @@
     "viirs_detections": 0
    },
    "night": {
-    "activity": 0.006,
-    "passes": 2,
-    "frp_mw": 7.1,
-    "viirs_cells": 6,
-    "viirs_detections": 7
+    "activity": 0.001,
+    "passes": 1,
+    "frp_mw": 2.0,
+    "viirs_cells": 2,
+    "viirs_detections": 3
    },
    "epochs": [
     "2.0NRT"
